@@ -163,7 +163,7 @@ public class MainSeat : UdonSharpBehaviour
     void Start()
     {
         station = this.GetComponent<VRCStation>();
-        mask = LayerMask.GetMask("course");
+        mask = LayerMask.GetMask("Environment");
     }
 
     void FixedUpdate()
